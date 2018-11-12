@@ -7,6 +7,7 @@
   <groupId>java-pro</groupId>
   <artifactId>testing</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>jar<packaging/>
 
   <name>test1</name>
   <!-- FIXME change it to the project's website -->
@@ -25,15 +26,18 @@
       <version>4.11</version>
       <scope>testing</scope>
     </dependency>
-
- <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <type>jar</type>
-      <scope>test</scope>
-      <optional>true</optional>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-server</artifactId>
+      <version>3.141.5</version>
     </dependency>
+
+  <dependency>
+   <groupId>org.testng</groupId>
+   <artifactId>testng</artifactId>
+   <version>7.0.0-beta1</version>
+  </dependency>
+
   </dependencies>
 
   <build>
